@@ -3,13 +3,10 @@
 In this repository you can find the code for classification of the common activities of electrical line workers. We recruited 37 subjects to perform the tasks and collected the acceleration signals from a signle wrist-worn Empatica E4 accelerometer. The following picture shows a sample subject and the experiment area.
 
 1. sitting on a chair while keeping hands still on the chair arms for 3 minutes
-
 2. standing still for 3 minutes
-
 3. walking on a set path for 3 minutes
 
-4. hoisting a weighted bucket up and down to a height of 4 m for 10 repetitions
-
+4. hoisting a weighted bucket up and down to a height of 4 m for 10 repetitions </br>
 5. lifting and lowering a weighted box for 20 repetitions
 
 6. pushing a cart on a set path for 10 repetitions
