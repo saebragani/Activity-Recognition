@@ -1,24 +1,22 @@
 # Activity-Recognition
 
-In this repository you can find the code for classification of the common activities of electrical line workers. We recruited 37 subjects to perform the tasks and collected the acceleration signals from a signle wrist-worn Empatica E4 accelerometer. The following picture shows a sample subject and the experiment area.
+In this repository you can find the code for classification of the common activities of electrical line workers. We recruited 37 subjects to perform the 10 tasks listed below and collected the acceleration signals from a signle wrist-worn Empatica E4 accelerometer.
 
-1. sitting on a chair while keeping hands still on the chair arms for 3 minutes
-2. standing still for 3 minutes
-3. walking on a set path for 3 minutes
+1. Sitting on a chair while keeping hands still on the chair arms for 3 minutes
+2. Standing still for 3 minutes
+3. Walking on a set path for 3 minutes
+4. Hoisting a weighted bucket up and down to a height of 4 m for 10 repetitions
+5. Lifting and lowering a weighted box for 20 repetitions
+6. Pushing a cart on a set path for 10 repetitions
+7. Typing on a computer for 3 minutes
+8. Climbing up and down a ladder for 20 repetitions
+9. Working on an electrical panel for 3 minutes
+10. Inserting screws using a screw driver at an overhead height for 3 minute
 
-4. hoisting a weighted bucket up and down to a height of 4 m for 10 repetitions </br>
-5. lifting and lowering a weighted box for 20 repetitions
-
-6. pushing a cart on a set path for 10 repetitions
-
-7. typing on a computer for 3 minutes
-
-8. climbing up and down a ladder for 20 repetitions
-
-9. working on an electrical panel for 3 minutes
-
-10. and inserting screws using a screw driver at an overhead height for 3 minute
+The following picture shows a sample subject and the experiment area.
 
 <img src="./images/wrist.png" alt="subject" width="400"/>
 
 We investigated the performance of ```*k*-Nearest Neighbors```, ```Support Vector Machines```, and ```Random Forest``` classifiers in combination with three feature sets (```time```, ```frequency```, and ```time-frequency```), and  two window lengths (4 and 10 seconds) for the classification. Also, we evaluated the classification performance in two scenarios of intra- and inter-subject. You can find the classification code in [Classification.ipynb](Classification.ipynb).
+
+The classification model for all combinations of classifier, feature se, and window length was trained saved to a pickle file. For inter-subject this resulted in 18 files, however for the intra-subject scenario since we trained the models on individual subjects the number of saved files summed up to 666. In [evaluate_performance.ipynb](evaluate_performance.ipynb) notebook we load the files and create the reports.
