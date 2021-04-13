@@ -23,7 +23,8 @@ In this repository you can find the code for classification of the common activi
 > and inserting screws using a screw driver at an overhead height for 3 minute
 
 <!-- ![image](./images/wrist.png) -->
-<div style="text-align:center"><img src="./images/wrist.png" alt="subject" width="400"/></div>
+<!-- <div style="text-align:center"><img src="./images/wrist.png" alt="subject" width="400"/></div> -->
 
+<img align="center" src="./images/wrist.png" alt="subject" width="400"/>
 
 We investigated the performance of *k*-Nearest Neighbors, Support Vector Machines, and Random Forest classifiers in combination with three feature sets (time, frequency, and time-frequency), and  two window lengths (4 and 10 seconds) for the classification. Also, we evaluated the classification performance in two scenarios of intra- and inter-subject. You can find the classification code in [Classification.ipynb](Classification.ipynb).
