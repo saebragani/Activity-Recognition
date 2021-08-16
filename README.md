@@ -26,7 +26,7 @@ The classification models for all combinations of classifier, feature set, and w
 ## LIME
 Using the LIME algorithm [[1]](#1) we found the important features for 2 activities of electric panel and hoisting in frequency and time-frequency feature sets. We reconstructed the signals using the selected features to investigate the relevance of the selected features. We applied the method on 30 correctly classified windows for the electric panel and hoisting tasks and used the most frequently selected features for reconstruction. The codes for the frequency and time-frequency features are provided in [LIME_FFT.ipynb](LIME_FFT.ipynb) and [LIME_Wavelet.ipynb](LIME_Wavelet.ipynb) notebooks.
 
-Also the output htmls of the notebooks that include the tabset plots can be found at [for the FFT features](https://saebragani.github.io/projects/HAR/LIME_FFT_All_Tasks.html.html) and [this link for the wavelet features](https://saebragani.github.io/projects/HAR/LIME_Wavelet_All_Tasks.html.html).
+Also the output htmls of the notebooks that include the the feature importance for all activities in tabset plots can be found [here for FFT features](https://saebragani.github.io/projects/HAR/LIME_FFT_All_Tasks.html) and [here for wavelet features](https://saebragani.github.io/projects/HAR/LIME_Wavelet_All_Tasks.html).
 
 # References
 <a id="1">[1]</a> Ribeiro, Marco Tulio, Sameer Singh, and Carlos Guestrin. "" Why should i trust you?" Explaining the predictions of any classifier." Proceedings of the 22nd ACM SIGKDD international conference on knowledge discovery and data mining. 2016.
