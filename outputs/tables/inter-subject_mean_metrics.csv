@@ -1,4 +1,4 @@
-,window_length,feature,model,measure,electricPanel,hoist,ladder,lift,overhead,push,sit,stand,type,walk,accuracy,stdev
+,window_length,feature,model,measure,electricPanel,hoist,ladder,lift,overhead,push,sit,stand,type,walk,overall_accuracy,overall_accuracy_stdev
 0,4,Frequency,RF,f1-score,0.85,0.8,0.74,0.81,0.84,0.87,0.93,0.91,0.91,0.98,0.85,0.02
 1,4,Frequency,RF,precision,0.81,0.86,0.74,0.81,0.9,0.86,0.94,0.9,0.89,0.96,0.85,0.02
 2,4,Frequency,RF,recall,0.88,0.76,0.75,0.82,0.79,0.88,0.92,0.91,0.94,0.99,0.85,0.02
