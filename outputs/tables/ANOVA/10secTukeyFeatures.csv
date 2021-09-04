@@ -1,0 +1,4 @@
+,group1,group2,meandiff,p-adj,lower,upper,reject
+0,FrequencyAll,Time,-0.0251,0.0599,-0.0511,0.0009,False
+1,FrequencyAll,TimeFrequency,0.0429,0.001,0.0169,0.0688,True
+2,Time,TimeFrequency,0.068,0.001,0.042,0.0939,True
